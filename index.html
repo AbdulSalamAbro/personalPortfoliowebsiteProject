@@ -11,35 +11,29 @@
   </head>
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <header>
-      <nav id="navbar">
-
+      <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+        </div>
       </nav>
-    </header>
-    <main>
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#projects">projects</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+    <main id="main">
       <section id="welcome-section">
         <h1>
           Hey I am Mimic, this is my Personal portafolio.
@@ -52,8 +46,8 @@
           <a href="#">Title of project</a>
         </div>
       </section>
-      <section >
-        <a href="https://github.com/AbdulSalamAbro" id="profile-link">Portfolio</a>
+      <section id="contact">
+        <a href="https://github.com/AbdulSalamAbro" id="profile-link" target="_blank">My Github</a>
       </section>
     </main>
 
